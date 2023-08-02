@@ -82,10 +82,10 @@ h3 {
     justify-content: space-between;
 }
 
-
 .projetos img {
-    width: 400px;
+    width: 50vw;
     margin-bottom: 0.5em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
 } 
 
 #projeto_gpd {
