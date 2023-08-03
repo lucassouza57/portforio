@@ -61,19 +61,18 @@ h3 {
 }
 
 #sobre ul {
-    width: 80vw;
+    width: 70vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: -1.7em;
 }
 
 #sobre li {
     list-style: none;
-    margin-left: .5em;
+    margin-right: 1em;
     
 }
-
-
 
 #projetos {
     text-align: center;
@@ -135,6 +134,7 @@ h3 {
 #contato li {
     list-style: none;
     margin-bottom: 2em;
+    margin-left: -1.9em;
     font-weight: bolder;
 }
 
