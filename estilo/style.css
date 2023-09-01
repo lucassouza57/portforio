@@ -42,8 +42,8 @@ main {
 }
 
 h2 {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 2.5em;
+    border-top: 1px solid #ccc;
+    padding-top: 2.5em;
 }
 
 #sobre h2 {
