@@ -107,7 +107,7 @@ h3 {
 }
 
 .btn {
-    font-size: 1.2em;
+    font-size: .9em;
     padding: 1em 2.5em;
     border: none;
     outline: none;
@@ -177,9 +177,7 @@ h3 {
     background: linear-gradient(270deg, #003b00  0%, #008000 60%);
 }
 
-#contato svg {
-    margin-left: .5em;
-}
+
 
 footer {
     margin-top: 1em;
