@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root {
-    --cor01:#004070;
-    --cor02:#006BBD;
-    --cor03:#49A9F2;
-    --cor04:#003f70a8;
-}   
+    --cor01: #004070;
+    --cor02: #006BBD;
+    --cor03: #49A9F2;
+    --cor04: #003f70a8;
+}
 
 
 
@@ -14,7 +14,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom, var(--cor01),var(--cor02), var(--cor03));
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor02), var(--cor03));
 }
 
 header {
@@ -71,7 +71,7 @@ h3 {
 #sobre li {
     list-style: none;
     margin-right: 1em;
-    
+
 }
 
 #projetos {
@@ -85,7 +85,7 @@ h3 {
     width: 50vw;
     margin-bottom: 0.5em;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
-} 
+}
 
 #projeto_gpd {
     margin: auto;
@@ -106,22 +106,35 @@ h3 {
     margin: 2.5em auto;
 }
 
-.projetos .botao_ver_mais {
-    padding: 1em 2em;
-    text-align: center;
-    font-size: 1.3em ;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: black;
-    border-radius: 10px;
+.btn {
+    font-size: 1.2em;
+    padding: 1em 2.5em;
+    border: none;
+    outline: none;
+    border-radius: 0.4em;
     cursor: pointer;
-    transition: ease-in-out .5s;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 9px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+    margin: 2em auto;
+    scale: 0.92;
+
 }
 
-.projetos .botao_ver_mais:hover {
-    box-shadow: inset   0 100px 0  0  var(--cor02);
-    color: white;
+
+.btn:hover {
+    background: rgb(2, 29, 78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+}
+
+.projetos a {
+    color: #fff;
+    text-decoration: none;
 }
 
 #contato {
@@ -138,31 +151,34 @@ h3 {
     font-weight: bolder;
 }
 
-#contato li > a {
+#contato a {
     text-decoration: none;
-    color:black ;padding: 1em 2em;
+    color: #fff;
+    padding: 1em 2em;
     text-align: center;
-    font-size: 1em ;
+    font-size: 1em;
     font-weight: bold;
     letter-spacing: 1px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: ease-in-out .5s;
 }
 
-#contato li > #LinkedIn:hover {
-    box-shadow: inset   0 100px 0  0  var(--cor02);
-    color: white;
+#contato li>#LinkedIn:hover {
+    background: var(--cor02);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
 }
 
-#contato li > #GitHub:hover {
-    box-shadow: inset   0 100px 0  0  #171515;
-    color: white;
+#contato li>#GitHub:hover {
+    background: #008000;
+    background: linear-gradient(270deg, #4b4b4b  0%, #2b2a2a 60%);
+
 }
 
-#contato li > #WhatsAPP:hover {
-    box-shadow: inset   0 100px 0  0  green;
-    color: white;
+#contato li>#WhatsAPP:hover {
+    background: #008000;
+    background: linear-gradient(270deg, #003b00  0%, #008000 60%);
+}
+
+#contato svg {
+    margin-left: .5em;
 }
 
 footer {
