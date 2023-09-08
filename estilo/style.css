@@ -107,7 +107,8 @@ h3 {
 }
 
 .btn {
-    font-size: .9em;
+    font-size: 1em;
+    font-weight: bolder;
     padding: 1em 2.5em;
     border: none;
     outline: none;
@@ -116,7 +117,6 @@ h3 {
     text-transform: uppercase;
     background-color: rgb(14, 14, 26);
     color: rgb(234, 234, 234);
-    font-weight: 700;
     transition: 0.6s;
     box-shadow: 0px 0px 60px #1f4c65;
     -webkit-box-reflect: below 9px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
@@ -164,17 +164,19 @@ h3 {
 #contato li>#LinkedIn:hover {
     background: var(--cor02);
     background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    box-shadow: 0px 0px 60px var(--cor02);
 }
 
 #contato li>#GitHub:hover {
     background: #008000;
     background: linear-gradient(270deg, #4b4b4b  0%, #2b2a2a 60%);
-
+    box-shadow: 0px 0px 60px #000;
 }
 
 #contato li>#WhatsAPP:hover {
     background: #008000;
     background: linear-gradient(270deg, #003b00  0%, #008000 60%);
+    box-shadow: 0px 0px 60px #008000;
 }
 
 
