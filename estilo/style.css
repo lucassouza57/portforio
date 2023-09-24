@@ -179,10 +179,8 @@ footer {
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.8);
     border-radius: 1rem;
     color: white;
-    box-shadow: 0 0 0.3em #ffffff80;
     font-weight: 700;
   }
   
@@ -212,8 +210,8 @@ footer {
     position: absolute;
     z-index: -1;
     border-radius: 1em;
-    filter: blur(20px);
-    animation: animate 5s linear infinite;
+    box-shadow: 5px 5px 10px #00000070;
+   
   }
   
   @keyframes animate {
