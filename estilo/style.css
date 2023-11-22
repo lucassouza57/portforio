@@ -98,7 +98,7 @@ h3 {
 #sobre li {
     list-style: none;
     margin-left: .5em;
-    
+    cursor: pointer;
 }
 
 
